@@ -1,17 +1,18 @@
 *{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
+    font-family: 'Open Sans', sans-serif;}
+    
+    .header{
+        background: #FFF8F3;
+        background-image: url('/images/header_bg.png'), url('/images/developer.png');
+        background-repeat: no-repeat;
+        background-position: bottom right, left;
+    }
 /* *headerand navigation styles */
-.header{
-    background: #FFF8F3;
-    background-image: url('/images/header_bg.png'), url('/images/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right, left;
-}
 nav{
-    display: flex;justify-content: space-between;
-    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
 }
 .btn-primary{
     color: var(--White-Color, #FFF);
