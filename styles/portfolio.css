@@ -4,7 +4,7 @@
     
     .header{
         background: #FFF8F3;
-        background-image: url('/images/header_bg.png'), url('/images/developer.png');
+        background-image: url('../images/header_bg.png'), url('../images/developer.png');
         background-repeat: no-repeat;
         background-position: bottom right, left;
     }
@@ -15,6 +15,7 @@ nav{
     padding: 50px 200px;
 }
 .btn-primary{
+    
     color: var(--White-Color, #FFF);
     font-size: 20px;
     font-weight: 700;
@@ -24,6 +25,7 @@ nav{
     border-radius: 5px;
     background: #FD6E0A;
 }
+
 .btn-pri{
     color: #FD6E0A;
     text-align: center;
@@ -33,6 +35,9 @@ nav{
     border-radius: 5px;
     border: 1px solid #FD6E0A;
     margin-left: 30px;
+    margin-top: 10px;
+    
+    
     
 }
 .nav-title{
