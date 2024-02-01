@@ -7,6 +7,7 @@
         background-image: url('../images/header_bg.png'), url('../images/developer.png');
         background-repeat: no-repeat;
         background-position: bottom right, left;
+        /* background-size: contain; */
     }
 /* *headerand navigation styles */
 nav{
@@ -37,7 +38,7 @@ nav{
 }
 .nav-title{
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 700;
 }
 nav ul{
     display: flex;
@@ -94,7 +95,6 @@ padding: 130px 150px;
     margin-bottom: 60px;
     font-size: 35px;  
     font-weight: 700;
-
 }
 .section-description{
 
@@ -187,3 +187,6 @@ input{
 .contact a{
     text-decoration: none;
 }
+
+    
+    
