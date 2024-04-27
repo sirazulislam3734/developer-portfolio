@@ -9,6 +9,10 @@
         background-position: bottom right, left;
         /* background-size: contain; */
     }
+    .image{
+        height:40px;
+        
+    }
 /* *headerand navigation styles */
 nav{
     display: flex;
